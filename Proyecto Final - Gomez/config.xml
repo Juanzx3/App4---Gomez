@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.phonegap.app3gomez"
+version = "1.0.0">
+
+<name>App3 - Gomez</name>
+
+<description>
+Tercera Aplicación con PhoneGap
+</description>
+
+<author href="https://example.com" email="juanzx3@hotmail.com">
+Francisco Gomez
+</author>
+
+<icon src="jquery-mobile/images/2.png" gap:density="ldpi" gap:platform="android" />
+<icon src="jquery-mobile/images/2.png" gap:density="mdpi" gap:platform="android" />
+<icon src="jquery-mobile/images/2.png" gap:density="hdpi" gap:platform="android" />
+<icon src="jquery-mobile/images/2.png" gap:density="xhdpi" gap:platform="android" />
+
+</widget>
+
+<install>
+ 	<sql>
+ 		<file driver="mysql" charset="utf8">sql/mysql/install.mysql.utf8.sql</file>
+ 	</sql>
+</install>
+
+<uninstall>
+	<sql>
+ 		<file driver="mysql" charset="utf8">sql/mysql/uninstall.mysql.utf8.sql</file>
+ 	</sql>
+</uninstall>
+<update>
+	<schemas>
+ 		<schemapath type="mysql">sql/mysql/updates</schemapath>
+ 	</schemas>
+</update>
+
