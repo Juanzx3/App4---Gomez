@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
-id = "com.phonegap.app3gomez"
+id = "com.phonegap.jfgr"
 version = "1.0.0">
 
-<name>App3 - Gomez</name>
+<name>App4 - Gomez</name>
 
 <description>
-Tercera Aplicación con PhoneGap
+Tercera AplicaciÃ³n con PhoneGap
 </description>
 
 <author href="https://example.com" email="juanzx3@hotmail.com">
@@ -20,6 +20,7 @@ Francisco Gomez
 <icon src="jquery-mobile/images/2.png" gap:density="xhdpi" gap:platform="android" />
 
 </widget>
+
 
 <install>
  	<sql>
